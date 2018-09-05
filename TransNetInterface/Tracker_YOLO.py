@@ -12,6 +12,9 @@ class Tracker_YOLO:
         self.isNeedUpdate = True
         # read pre-trained model and config file
         # net = cv2.dnn.readNet(args.weights, args.config)
+
+
+
         self.init_tracking()
 
     def init_tracking(self):
